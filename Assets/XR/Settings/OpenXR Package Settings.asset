@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8f1ce8139888c4ab621f6b3c8bb558, type: 3}
   m_Name: MotionControllerFeaturePlugin WSA
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Motion Controller Model
   version: 1.0.0
   featureIdInternal: com.microsoft.openxr.feature.controller
@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79c911b38743a649b1c1eddb5097202, type: 3}
   m_Name: HandTrackingFeaturePlugin Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking
   version: 1.0.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c79c911b38743a649b1c1eddb5097202, type: 3}
   m_Name: HandTrackingFeaturePlugin WSA
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking
   version: 1.0.0
   featureIdInternal: com.microsoft.openxr.feature.handtracking
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   - {fileID: 2697045468638686764}
   - {fileID: -7279141970318523660}
   - {fileID: 6278738627728627846}
-  m_renderMode: 0
+  m_renderMode: 1
   m_depthSubmissionMode: 1
 --- !u!114 &335682418369168436
 MonoBehaviour:
@@ -1779,7 +1779,6 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -3832785666215734350}
   - {fileID: 464919355615794374}
   - {fileID: -1524850531857260452}
   - {fileID: -6165725447006005544}
@@ -1793,9 +1792,10 @@ MonoBehaviour:
   - {fileID: 4190354446731672936}
   - {fileID: 5996317648994697550}
   - {fileID: -216751883430677888}
-  - {fileID: -1514539198864015995}
   - {fileID: -1995111704180496767}
   - {fileID: 1386361066742703857}
+  - {fileID: -1514539198864015995}
+  - {fileID: -3832785666215734350}
   m_renderMode: 1
   m_depthSubmissionMode: 2
 --- !u!114 &4035321663849020845
@@ -2056,7 +2056,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c8f1ce8139888c4ab621f6b3c8bb558, type: 3}
   m_Name: MotionControllerFeaturePlugin Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Motion Controller Model
   version: 1.0.0
   featureIdInternal: com.microsoft.openxr.feature.controller
