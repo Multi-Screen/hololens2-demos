@@ -11,11 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/4.unity
     guid: 560c3fbd0c75d7b47b5220b48a4c5ff5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/demo02.unity
     guid: e198f2ea58b0d2c4ba4cb6876c2370d5
+  - enabled: 1
+    path: Assets/Scenes/demo03.unity
+    guid: e3ca2d59e6af49347ad307069a86c2fa
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 9f88a9d55ee93f54ba2959b19cdc7434,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 11c08d017427f8d48b790cd6b24677ba,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 47d117156b061f542965ac38d274d87c,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 13e7bdfd1daa4104793b94fcee1c8cba,
       type: 2}
